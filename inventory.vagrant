@@ -19,7 +19,8 @@ deploy_target=vagrant
 
 [masters:vars]
 #extra_server_args="--flannel-iface enp0s8 --no-deploy=traefik"
-extra_server_args="--flannel-iface eth1 --no-deploy=traefik"
+#extra_server_args="--flannel-iface eth1 --no-deploy=traefik"
+extra_server_args="--flannel-iface eth1"
 
 [nodes:vars]
 #extra_node_args="--flannel-iface enp0s8"
